@@ -6,7 +6,6 @@ Docker image of Atlassian Jira 7 Service Desk 3.
 ```
 docker run --detach --publish 8080:8080 elgreen/jira-service-desk:latest
 ```
-### 
 ## Reverse Proxy Support
 You need to change the `/opt/atlassian/jira/conf/server.xml` file inside the container to include `proxyName` and `proxyPort` attributes. 
 
